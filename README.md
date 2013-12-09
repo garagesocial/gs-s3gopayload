@@ -25,3 +25,12 @@ import s3gopayload
 s3gp = s3gopayload.s3gopayload('bucket name', 'accesskeyid', 'secretkey', '/home/gs/srp3j', ['someProjectFolder/vendo', 'someProjectFolder/config' ]
 s3gp.start()
 ```
+
+Server Download
+-------------------------
+Finally on your beanstalk config set for download and extraction
+```python
+container_commands:
+   "00-fetch-flash-clone":
+      command: "cd /var/app/ondeck; wget https://s3.amazonaws.com/my-s3/latest.zip; unzip latest.zip; rm latest.zip"
+```
