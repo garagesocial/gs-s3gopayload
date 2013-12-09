@@ -16,7 +16,7 @@ Keep your git repo fast and clutter free from things such as the 'vendor' direct
 Dependencies
 -------------------------
 * `easy_install GitPython`
-* `easy_install botto`
+* `easy_install boto`
 
 Usage
 -------------------------
