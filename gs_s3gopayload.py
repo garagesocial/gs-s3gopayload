@@ -92,7 +92,7 @@ class gs_s3gopayload:
 
       # if already exists delete it and recreate it
       if os.path.exists(tmp_dir): self.del_dir_recursive(tmp_dir)
-      # create the temp direc
+      # create the temp directory
       os.makedirs(tmp_dir)
 
       # destination of output zip file
