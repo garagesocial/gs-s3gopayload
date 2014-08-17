@@ -4,7 +4,8 @@
 ### Garagesocial, Inc. - https://www.garagesocial.com
 ###############################################################################
 ###
-### Filename:  gs_s3gopayload.py
+### Filename:  gs_s3gopayload.py 
+###            https://github.com/garagesocial/gs-s3gopayload
 ###
 ### About:     Python script to deploy a set of files and directories as a hash
 ###            named zip to Amazon S3. Useful for integration with Beanstalk
